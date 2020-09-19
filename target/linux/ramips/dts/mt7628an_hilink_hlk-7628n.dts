@@ -30,15 +30,27 @@
 	};
 };
 
-&state_default {
-	gpio {
-		groups = "i2c";
-		function = "gpio";
-	};
+//&state_default {
+//	gpio {
+//		groups = "i2c";
+//		function = "gpio";
+//	};
+//};
+
+&i2c {
+	status = "okay";
+};
+
+&uartlite {
+        status = "okay";
 };
 
 &uart1 {
 	status = "okay";
+};
+
+&uart2 {
+        status = "okay";
 };
 
 &spi0 {
