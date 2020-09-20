@@ -1,5 +1,14 @@
 ![OpenWrt logo](/logo.svg)
 
+This version is dedicated to the HLK-7628N to activate i2c, uart*, usb for domotic version
+
+VPN
+
+Samba
+
+Traffic analyze
+
+
 OpenWrt Project is a Linux operating system targeting embedded devices. Instead
 of trying to create a single, static firmware, OpenWrt provides a fully
 writable filesystem with package management. This frees you from the
